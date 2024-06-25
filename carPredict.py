@@ -1,6 +1,5 @@
 import streamlit as st
 import pickle
-import sklearn
 # Load the model
 model_path = "CarPrice.pkl"
 with open(model_path, 'rb') as file:
