@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the model
-model_path = "c:\\Users\\hp\\Desktop\\Machine Learning\\CarPrice.pkl"
+model_path = "CarPrice.pkl"
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
