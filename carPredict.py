@@ -11,7 +11,7 @@ def predict_price(features):
     return prediction[0]
     
 st.title("Car Price Prediction")
-year = st.slider('Year', 2000, 2023, 2010)
+year = st.slider('Year', 2006, 2023, 2010)
 km_driven = st.number_input('Kilometers Driven', 0, 500000, 50000)
 fuel = st.selectbox('Fuel Type', ['Diesel', 'Petrol','CNG'])
 seller_type = st.selectbox('Seller Type', ['Individual', 'Trustmark Dealer', 'Dealer'])
